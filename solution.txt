@@ -1,0 +1,23 @@
+基礎元件：
+<Camera /> 表示右上角的相機
+<Hambergur /> 表示左上角的三條線
+<Avatar /> 表示頭像
+<EnterButton /> 表示右下的加號按鈕
+<TextField /> 表示輸入框
+
+<RemoteDialog /> 表示他人訊息的對話框
+    底下有 <Avatar />
+<LocalDialog /> 表示自己訊息的對話框
+    底下有 <Avatar />
+
+<Header /> 表示最上面那排
+    底下有 <Camera /> <Hambergur />
+
+<DialogLists /> 表示所有的對話框
+    底下有多個 <RemoteDialog /> 及 <LocalDialog />
+
+<InputBar /> 表示最下面那排
+    底下有 <TextField /> 及 <EnterButton />
+
+<Layout /> 表示全體的排版
+    底下有 <Header /><DialogLists /><InputBar />
